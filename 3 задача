@@ -15,7 +15,7 @@ int A, B;
     
     while (A > B){
         if (A % 2 == 0 && A / 2 >= B){
-        a /= 2;
+        A /= 2;
             std::cout << "2" << std::endl;
         } else {
             A--;
