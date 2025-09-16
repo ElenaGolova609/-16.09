@@ -1,0 +1,25 @@
+#include <cmath>
+#include <cstdint>
+#include <iostream>
+
+main(){
+    int x,y;
+    char operacia;
+    std::cin >> x >> operacia >> y;
+    
+       int result = 0;
+    if (operacia == '+') {
+        result = x + y;
+    } else if (operacia == '-') {
+        result = x - y;
+    } else if (operacia == '*') {
+        result = x * y;
+    } else if (operacia == '/' || operacia == ':') {
+        result = x / y;
+    } else if (operacia == '%') {
+        result = x % y;
+    }
+
+    std::cout << result << "\n";
+}
+    
