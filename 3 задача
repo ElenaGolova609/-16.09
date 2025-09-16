@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+
+
+int main(){
+int A, B;
+    std::cout << "Введите число A\n";
+    std::cin >> A;
+    std::cout << "Введите число B\n";
+    std::cin >> B;
+    
+    
+    std::cout << "Последовательность операций:\n";
+    
+    
+    while (A > B){
+        if (A % 2 == 0 && A / 2 >= B){
+        a /= 2;
+            std::cout << "2" << std::endl;
+        } else {
+            A--;
+            std::cout << "-1" << std::endl;
+        }
+    }
+    
+    return 0;
+}
+    
+    
+    
